@@ -1,12 +1,31 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+
+
+const user = {
+  name: "John",
+  lastName: "Doe",
+  age: 45,
+  email: "jdoe@email.com",
+  isActive: true,
+}
+
+
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
 
-      <h1>Hello World</h1>
+      <h1 id="title">User Info</h1>
+      <h3>Name: {user.name}</h3>
+      <h3>LastName: {user.lastName}</h3>
+      <h3>Age: {user.age}</h3>
+      <h3>Email: {user.email}</h3>
+      <h3>isActive: {String(user.isActive)}</h3>
+      {user.isActive ? <p>How are you, {user.name}!</p> : <p>How are you, guest!</p>}
+      
 
 
         {/* <img src={logo} className="App-logo" alt="logo" />
