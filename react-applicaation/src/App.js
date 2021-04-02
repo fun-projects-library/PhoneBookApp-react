@@ -12,7 +12,7 @@ import Blog from "./components/blog";
 
 function App() {
   return (
-    <div className="App">
+    <div id="mainDiv" className="App">
       <header className="App-header">
         {/* <h1 id="title">User Info</h1>
         <h3>Name: {user.name}</h3>
