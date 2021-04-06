@@ -2,9 +2,20 @@ import React from "react";
 import BlogItems from "./BlogItems";
 
 class Blog extends React.Component {
-  blogClick = ()=>{
-    console.log("another hi to everyone from the BLOG.js :)")
+  constructor(props){
+    super(props);
+    this.state = {
+      number: 10
+    }
   }
+  blogClick = ()=>{
+    
+    this.setState({
+      number: this.state.number + 1
+    })
+    console.log(this.state.number)
+  }
+  
   render() {
     let greet = "Welcome ...";
     let userInfo = { uName: "Jack", lastName: "Johanson", age: 25 };

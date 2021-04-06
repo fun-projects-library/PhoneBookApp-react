@@ -25,14 +25,17 @@ export default class BlogItems extends Component {
   buttonClick = () => {
     console.log("hello from button")
     this.props.blogClick()
-  }
+  };
+  
   render() {
+    
     // console.log(this.props);
     const myStyle = {
       color: "black",
       backgroundColor: "aqua",
       padding: "10px"
     }
+    
     return (
       <div id="mainDiv">
         <h2 style={{color: "red",}}>Blog Item</h2>
