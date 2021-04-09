@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Phonebook from './Phonebook';
+import "../styles/Form.css"
 
 
 
@@ -8,22 +8,14 @@ export default class Form extends Component {
    
     render() {
         
-        
-        
         return (
             <div>
-                <div id="results"></div>
-
-
-
-                <div className="functions">
-                    <input id="nameInput" placeholder="your full name,please"></input>
-                    <br/>
-                    <input id="phoneInput" placeholder="enter your phone number"></input>
-                    <br/>
-                    <button onClick={this.props.addFunc}>ADD</button>
-                </div>
-                
+                <h3>Form</h3>
+                <input name="name" id="nameInput" placeholder="Enter a name..."></input>
+                <br />
+                <input name="phone" id="phoneInput" placeholder="Enter the phone number ...."></input>
+                <br />
+                <button id="button">ADD</button>
             </div>
         )
     }

@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#filter{
+    margin: 10px 0;
+    height: 40px;
+    line-height: 25px;
+    text-indent: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 1rem;
+    outline: none;
+}
+
+.listDiv{
+    margin: 0 auto;
+    padding: 0;
+    width: 300px;
+}
+
+.listDiv ul{
+    background-color: blanchedalmond;
+    padding: 10px 0;
+    margin-bottom: 15px;
+}
+
+.listDiv li{
+    padding: 5px 0;
+    list-style-type: none;
+}
+
+.names{
+    margin-right: 40%;
+}

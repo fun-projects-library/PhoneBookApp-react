@@ -1,15 +1,14 @@
 // import logo from './logo.svg';
 import "./App.css";
-import Phonebook from "./Phonebook";
-import Form from "./Form"
+import Contact from "./components/Contact"
 
 
 
 
 function App() {
   return (
-    <div id="mainDiv" className="App">
-      <Phonebook />
+    <div>
+      <Contact />
 
     </div>
   );
