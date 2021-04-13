@@ -8,7 +8,7 @@
     height: 40px;
     line-height: 25px;
     text-indent: 10px;
-    width: 300px;
+    width: 330px;
     border: none;
     border-radius: 1rem;
     outline: none;
@@ -18,19 +18,29 @@
     margin: 0 auto;
     padding: 0;
     width: 300px;
+    
 }
 
 .listDiv ul{
     background-color: blanchedalmond;
-    padding: 10px 0;
+    padding: 10px 15px;
     margin-bottom: 15px;
+    font-size: 10px;
+    border-radius: 1rem;
+    width: 310px;
+    
 }
 
 .listDiv li{
     padding: 5px 0;
     list-style-type: none;
+    clear: both;
 }
 
 .names{
-    margin-right: 40%;
+    float: left;
+}
+
+.phones{
+    float: right;
 }
