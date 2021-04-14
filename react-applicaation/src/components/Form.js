@@ -43,7 +43,10 @@ export default class Form extends Component {
 
     sendForm = (e) => {
         e.preventDefault();
-        this.props.addContact({...this.state});
+        if(this.state.name && this.state.phone){
+            this.props.addContact({...this.state});
+        }
+        
 
         // document.getElementById("nameInput").value = "";
         // document.getElementById("phoneInput").value = "";
